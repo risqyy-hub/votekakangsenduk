@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A0810"/>
+      <stop offset="50%" stop-color="#6B0F1A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#A16207"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bgGrad)"/>
+  <circle cx="200" cy="180" r="140" fill="none" stroke="url(#goldGrad)" stroke-width="2" opacity="0.3"/>
+  <circle cx="200" cy="180" r="155" fill="none" stroke="url(#goldGrad)" stroke-width="1" stroke-dasharray="8 6" opacity="0.25"/>
+  <!-- Cultural Headwear / Udeng -->
+  <path d="M125 150 Q200 110 275 150 Q285 170 270 185 Q200 165 130 185 Z" fill="#1E293B" stroke="url(#goldGrad)" stroke-width="3"/>
+  <path d="M200 110 Q215 85 200 70 Q185 85 200 110 Z" fill="url(#goldGrad)"/>
+  <!-- Head & Face -->
+  <circle cx="200" cy="205" r="55" fill="#E2A176"/>
+  <!-- Eyes & Eyebrows -->
+  <path d="M175 195 Q185 190 192 195" stroke="#331A15" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M208 195 Q215 190 225 195" stroke="#331A15" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <circle cx="183" cy="202" r="4" fill="#1E293B"/>
+  <circle cx="217" cy="202" r="4" fill="#1E293B"/>
+  <!-- Smile -->
+  <path d="M185 228 Q200 242 215 228" stroke="#882C2C" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <!-- Traditional Beskap / Suit -->
+  <path d="M110 500 L110 320 Q145 270 200 270 Q255 270 290 320 L290 500 Z" fill="#111827"/>
+  <!-- Gold Trim / Kerah Beskap -->
+  <path d="M170 270 L200 340 L230 270" fill="none" stroke="url(#goldGrad)" stroke-width="5"/>
+  <path d="M200 340 L200 480" fill="none" stroke="url(#goldGrad)" stroke-width="4" stroke-dasharray="14 10"/>
+  <!-- Sash / Selendang Budaya -->
+  <path d="M130 320 L270 480" stroke="#8E1B29" stroke-width="22" stroke-linecap="round" opacity="0.9"/>
+  <path d="M130 320 L270 480" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Badge K-01 -->
+  <rect x="130" y="440" width="140" height="38" rx="19" fill="#6B0F1A" stroke="url(#goldGrad)" stroke-width="2"/>
+  <text x="200" y="465" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#FDE047" text-anchor="middle" letter-spacing="2">KAKANG 01</text>
+</svg>

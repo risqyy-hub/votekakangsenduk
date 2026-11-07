@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <linearGradient id="logoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6B0F1A"/>
+      <stop offset="100%" stop-color="#3B040B"/>
+    </linearGradient>
+    <linearGradient id="logoGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE894"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA7C11"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#logoBg)"/>
+  <rect x="3" y="3" width="94" height="94" rx="21" fill="none" stroke="url(#logoGold)" stroke-width="2"/>
+  <!-- Mahkota Budaya / Crown -->
+  <path d="M25 65 L28 42 L40 52 L50 32 L60 52 L72 42 L75 65 Z" fill="url(#logoGold)"/>
+  <circle cx="28" cy="40" r="3.5" fill="#FFE894"/>
+  <circle cx="50" cy="30" r="4.5" fill="#FFE894"/>
+  <circle cx="72" cy="40" r="3.5" fill="#FFE894"/>
+  <!-- Base Pedestal -->
+  <rect x="24" y="68" width="52" height="6" rx="3" fill="url(#logoGold)"/>
+</svg>

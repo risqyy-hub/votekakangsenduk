@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="60%" stop-color="#4A0810"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#A16207"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bgGrad2)"/>
+  <circle cx="200" cy="180" r="140" fill="none" stroke="url(#goldGrad2)" stroke-width="2" opacity="0.3"/>
+  <circle cx="200" cy="180" r="155" fill="none" stroke="url(#goldGrad2)" stroke-width="1" stroke-dasharray="8 6" opacity="0.25"/>
+  <!-- Headwear Udeng Modif -->
+  <path d="M120 152 Q200 115 280 152 Q290 172 270 188 Q200 168 125 188 Z" fill="#2E1018" stroke="url(#goldGrad2)" stroke-width="3"/>
+  <circle cx="200" cy="120" r="12" fill="url(#goldGrad2)"/>
+  <!-- Face -->
+  <circle cx="200" cy="205" r="55" fill="#DE976C"/>
+  <path d="M175 195 Q185 190 192 195" stroke="#331A15" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M208 195 Q215 190 225 195" stroke="#331A15" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <circle cx="183" cy="202" r="4" fill="#1E293B"/>
+  <circle cx="217" cy="202" r="4" fill="#1E293B"/>
+  <path d="M185 228 Q200 240 215 228" stroke="#882C2C" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+  <!-- Beskap Hitam Elegan -->
+  <path d="M110 500 L110 320 Q145 270 200 270 Q255 270 290 320 L290 500 Z" fill="#1F2937"/>
+  <path d="M170 270 L200 340 L230 270" fill="none" stroke="url(#goldGrad2)" stroke-width="5"/>
+  <path d="M200 340 L200 480" fill="none" stroke="url(#goldGrad2)" stroke-width="4" stroke-dasharray="14 10"/>
+  <!-- Maroon Sash -->
+  <path d="M130 320 L270 480" stroke="#7F1D1D" stroke-width="22" stroke-linecap="round" opacity="0.95"/>
+  <path d="M130 320 L270 480" stroke="url(#goldGrad2)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Badge K-02 -->
+  <rect x="130" y="440" width="140" height="38" rx="19" fill="#1E293B" stroke="url(#goldGrad2)" stroke-width="2"/>
+  <text x="200" y="465" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="16" fill="#FDE047" text-anchor="middle" letter-spacing="2">KAKANG 02</text>
+</svg>
